@@ -1,28 +1,32 @@
-const ProjectCard = ({project}) =>{
+const ProjectCard = ({project, classname}) =>{
     return (
-        <div>
-            <h3>
-                {project.title}
-            </h3>
+        <div className={classname}>
 
-            <p>
-                {project.description}
-            </p>
+            <div className="project-content">
+                <h3>
+                    {project.title}
+                </h3>
 
-            <div>
-                {project.technologies.map((tech) => (
-                    <span key={tech}>
-                        {tech}
-                    </span>
-                ))}
+                <p>
+                    {project.description}
+                </p>
+
+                <div>
+                    {project.technologies.map((tech) => (
+                        <span key={tech}>
+                            {tech}
+                        </span>
+                    ))}
+                </div>
+
+                <a 
+                    href={project.github}
+                    target="_blank"
+                    className="project-link"
+                >
+                    Ver Repositorio 
+                </a>
             </div>
-
-            <a 
-                href={project.github}
-                target="_blank"
-            >
-                Ver Repositorio 
-            </a>
         </div>
     )
     

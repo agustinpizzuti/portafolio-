@@ -2,14 +2,16 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='aboout'>
+    <section id='about' className='about'>
 
-        <h2>
-            Sobre mi
-        </h2>
 
-        <div>
-            <div>
+        <div className='about-container'>
+            <div className='about-text'>
+
+                <h2 className='section-title'>
+                    Sobre mi
+                </h2>
+
                 <p>
                     Soy estudiante avanzado de Analista Programador en ORT Uruguay,
                     enfocado en el desarrollo de aplicaciones web modernas utilizando
@@ -23,8 +25,9 @@ const About = () => {
                 </p>
             </div>
 
-            <div>
-                <div>
+            <div className='about-cards'>
+
+                <div className='about-card'>
                     <h3>
                         Educación
                     </h3>
@@ -37,8 +40,8 @@ const About = () => {
                         Universidad ORT Uruguay
                     </p>
                 </div>
-
-                <div>
+                
+                <div className='about-card'>
                     <h3>
                         Idiomas
                     </h3>
@@ -47,7 +50,8 @@ const About = () => {
                         Español (nativo) - Ingles B2
                     </p>
                 </div>
-            </div>
+                
+            </div>    
         </div>
     </section>
 

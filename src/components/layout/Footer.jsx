@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-        <div>
+    <footer className='footer'>
+        <div className='footer-container'>
             <p>
                 © 2026 Agustín Pizzuti.
                 Desarrollado con React.

@@ -2,28 +2,33 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header>
-        <nav>
-            <h1>Agustin</h1>
+    <header className='navbar'>
 
-            <ul>
-                <li>
-                    <a href='#about'>Sobre mi</a>
-                </li>
+        <div className='navbar-container'> 
 
-                <li>
-                    <a href='#skills'>Skills</a>
-                </li>
-
-                <li>
-                    <a href='#projects'>Proyectos</a>
-                </li>
-
-                <li>
-                    <a href='#contact'>Contacto</a>
-                </li>
-            </ul>
-        </nav>
+            <h2 className='logo'>
+                Agustin
+            </h2>
+       
+            <nav className='nav-links'>
+                <a href='#about'>
+                    Sobre mi
+                </a>
+                
+                <a href='#skills'>
+                    Skills
+                </a>
+                
+                <a href='#projects'>
+                    Proyectos
+                </a>
+                
+                <a href='#contact'>
+                    Contacto
+                </a>
+            </nav>
+        
+        </div>
     </header>
   )
 }

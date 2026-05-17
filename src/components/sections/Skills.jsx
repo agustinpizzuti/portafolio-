@@ -4,14 +4,14 @@ import { skills } from "../../data/skills";
 
 const Skills = () => {
   return (
-    <section id='skills'>
-        <div>
+    <section id='skills' className='skills'>
+        <div className='skills-container'>
 
-            <h2>
+            <h2 className='section-title'>
                 Tecnologías
             </h2>
 
-            <div>
+            <div className='skills-grid'>
                 {skills.map((skill) => {
                     
                     const Icon = skill.icon
@@ -19,8 +19,9 @@ const Skills = () => {
                     return (
                         <div
                             key={skill.name}
+                            className='skill-card'
                         >
-                            <Icon />
+                            <Icon className='skill-icon'/>
 
                             <p>
                                 {skill.name}
