@@ -9,20 +9,11 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    to bottom,
-    #020617 0%,
-    #071426 25%,
-    #0f172a 50%,
-    #132238 75%,
-    #1e293b 100%
-  );
+  background: #020617;
 
   color: white;
 
   font-family: 'Inter', sans-serif;
-
-  min-height: 100vh;
 
   overflow-x: hidden;
 }
