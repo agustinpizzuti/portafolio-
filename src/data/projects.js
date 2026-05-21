@@ -6,9 +6,11 @@ export const projects =[
 
         technologies: [
             ".NET 8",
-            "React",
+            " ",
             "SQL Server",
+            " ",
             "JWT",
+            " ",
             "Entity Framework"
         ],
 
@@ -22,7 +24,9 @@ export const projects =[
 
         technologies: [
             "SQL Server",
+            " ",
             "MongoDB",
+            " ",
             "T-SQL"
         ],
 
@@ -37,8 +41,11 @@ export const projects =[
 
         technologies: [
             "Java",
+            " ",
             "POO",
+            " ",
             "Algoritmos",
+            " ",
             "Estructuras de Datos"
         ],
 
@@ -54,8 +61,11 @@ export const projects =[
 
         technologies: [
             "React",
+            " ",
             "JavaScript",
+            " ",
             "REST API",
+            " ",
             "CSS"
         ],
 
