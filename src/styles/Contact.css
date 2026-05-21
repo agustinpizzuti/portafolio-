@@ -34,7 +34,7 @@
 .contact-link {
   background: #38bdf8;
 
-  color: white;
+  color: #020617;
 
   text-decoration: none;
 
@@ -50,9 +50,5 @@
 .contact-link:hover {
   transform: translateY(-5px);
 
-  background: #334155;
-
-  border-color: #38bdf8;
-
-  color: #38bdf8;
+  background: #7dd3fc;
 }
