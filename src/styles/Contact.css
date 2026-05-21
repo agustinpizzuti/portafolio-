@@ -1,0 +1,58 @@
+/*CONTACT*/
+.contact {
+  padding: 120px 10%;
+
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 900px;
+
+  margin: 0 auto;
+}
+
+.contact-description {
+  color: #94a3b8;
+
+  margin-top: 1rem;
+
+  margin-bottom: 3rem;
+
+  font-size: 1.1rem;
+}
+
+.contact-links {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 1.5rem;
+
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  background: #38bdf8;
+
+  color: white;
+
+  text-decoration: none;
+
+  padding: 1rem 2rem;
+
+  border-radius: 14px;
+
+  transition: 0.3s;
+
+  border: 1px solid transparent;
+}
+
+.contact-link:hover {
+  transform: translateY(-5px);
+
+  background: #334155;
+
+  border-color: #38bdf8;
+
+  color: #38bdf8;
+}
